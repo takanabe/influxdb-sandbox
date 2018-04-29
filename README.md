@@ -9,6 +9,7 @@ Investigation and research about InfluxDB (https://docs.influxdata.com/influxdb/
 * We cannot merge data across measurements with `JOIN` query. (TSDB is not RDB)
 * Include all data in a single measurement (Schema design tips)
 * We can use Subqueries
+* Run subqueries via Grafana need to [enable raw mode query editer](https://github.com/grafana/grafana/issues/7692)
 
 from https://www.influxdata.com/blog/tldr-influxdb-tech-tips-june-16-2016/
 
